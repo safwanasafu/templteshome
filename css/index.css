@@ -1,0 +1,175 @@
+
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+header{
+    height: 50px;
+    background: #fff;
+    padding-top: 17px;
+    font-family: 'Circular-Std-Regular';
+}
+header section.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+header section.wrapper div.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+header section.wrapper div.left h1{
+    width: 200px;
+    margin-right: 30px;
+
+}
+header section.wrapper div.left h1 a{
+    display: block;
+}
+header section.wrapper div.left h1 a img{
+    width: 120px;
+    display: block;
+     margin-left: 100px;
+}
+header section.wrapper div.left ul{
+    display: flex;
+    margin-left: 200px;
+}
+header section.wrapper div.left ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+header section.wrapper div.left ul li:last-child{
+    margin-right: 0;
+}
+header section.wrapper div.left ul li a{
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    color:  #160647;
+}
+
+
+ header section.wrapper div.left ul li a:hover{
+    text-decoration: underline;
+    color: #160647 ;
+}
+
+    
+header section.wrapper nav.right{
+    display: flex;
+}
+header section.wrapper nav.right ul{
+    margin-right: 30px;
+    display: flex;
+}
+header section.wrapper nav.right ul li{
+    margin-right: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: #160647;
+}
+header section.wrapper nav.right ul li:last-child{
+    margin-right: 0;
+}
+header section.wrapper nav.right ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    display: inline-block;
+    color:  #160647;
+    
+}
+header section.wrapper nav.right ul li a.button{
+    border: solid 1px;
+     font-size: 16px;
+     font-weight: 600;
+    border-radius: 8px;
+    color:  white;
+    text-decoration: none;
+    display: inline-block;
+    background-color:  #160647;
+}
+section#content{}
+
+section#content section.wrapper div.note h1{
+    font-family: 'Circular-Std-Bold';
+    color:  #160647;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+     margin-bottom: 24px;
+
+}
+section#content section.wrapper div.note p{
+    font-family: 'Circular-Std-Regular';
+    color:  #160647;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    
+    
+}
+section#content section.wrapper div.top{
+    background-image: url(../images/strip.png);
+    background-repeat: no-repeat;
+    background-position:right bottom ;
+    background-size: 330px 430px;
+    
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+
+}
+section#content section.wrapper div.top img{
+    box-shadow:0 4px 15px 0 rgba(0,0,0,0.1) ;
+
+    display: block;
+    width: 500px;
+    
+    
+}
+section#content section.wrapper div.bottom{
+    
+    
+    
+} 
+section#content section.wrapper div.bottom ul{
+      display: flex;
+     justify-content:center;
+}
+section#content section.wrapper div.bottom ul li{
+    list-style: none;
+    margin-right: 55px;
+}
+section#content section.wrapper div.bottom ul li h3{
+     font-family: 'Circular-Std-Bold';
+    color:  #160647;
+    font-size: 28px;
+}
+section#content section.wrapper div.bottom ul li p{
+    color:  #160647;
+     font-family: 'Circular-Std-Regular';
+     font-size: 20px;
+}
